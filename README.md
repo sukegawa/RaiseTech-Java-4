@@ -1,8 +1,8 @@
 # RaiseTech-Java-4 task
-RaiseTechのJavaコース第3回の課題です。  
+RaiseTechのJavaコース第4回の課題です。  
 
 ## 2023.8.2　課題提出
-**- Menuクラス  **
+**- Menuクラス**  
 Mainとは別のクラスを生成利用することを復習。  
 
 **- Mainクラス**  
