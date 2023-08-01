@@ -21,10 +21,10 @@ public class Main {
         System.out.println("この中に500円以上のフードがあるか？");
         //priceに500以上の数値が含まれているか判定し、結果を出力
         System.out.println(
-                foodMenu.stream().anyMatch(over -> over.getPrice() >= 500));
+                foodMenu.stream().anyMatch(menu -> menu.getPrice() >= 500));
 
         System.out.println("500円以上のメニューは");
         //filter中間操作で500円以上の要素を抽出、foodを取得しそれぞれ出力する。
-        foodMenu.stream().filter(rich -> rich.getPrice() >= 500).map(Menu::getFood).forEach(System.out::println);
+        foodMenu.stream().filter(menu -> menu.getPrice() >= 500).map(Menu::getFood).forEach(System.out::println);
     }
 }
